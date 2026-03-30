@@ -1,0 +1,21 @@
+.{
+    .name = .ziex_app,
+    .version = "0.0.0",
+    .fingerprint = 0x7246d8c908f650a4,
+    .minimum_zig_version = "0.15.2",
+    .dependencies = .{
+        .zx = .{
+            .url = "git+https://github.com/ziex-dev/ziex#100778b2f3b08d6f682bf360cda68cf93d0a90e6",
+            .hash = "zx-0.1.0-dev.864-8okzKs6y-gASuDYLLPKTcN93O-kAdZR893r37Oy1Btek",
+        },
+        .pg = .{
+            .url = "git+https://github.com/karlseguin/pg.zig?ref=master#e58b318b7867ef065b3135983f829219c5eef891",
+            .hash = "pg-0.0.0-Wp_7gXFoBgD0fQ72WICKa-bxLga03AXXQ3BbIsjjohQ3",
+        },
+    },
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "app",
+    },
+}
